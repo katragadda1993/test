@@ -1,0 +1,49 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BKL_TIMEOUT	pm_config_xml.c	12;"	d	file:
+BOOT_DELAY	pm_config_xml.c	11;"	d	file:
+DATA_TRANSFER	pm_config_xml.c	15;"	d	file:
+Get_Interface_Connected	common_fun.c	/^int Get_Interface_Connected ( char *interface_name )$/;"	f
+NETWORK_TIMEOUT	pm_config_xml.c	14;"	d	file:
+PM_CONFIG_FILE	pm_config_xml.c	20;"	d	file:
+SUSPEND_TIMEOUT	pm_config_xml.c	13;"	d	file:
+adpter	pm_config.h	/^	int adpter;$/;"	m	struct:pm_config
+batt_vol	pm_config.h	/^	int batt_vol;$/;"	m	struct:pm_config
+bkl_timeout	pm_config.h	/^	int bkl_timeout;$/;"	m	struct:pm_time_config
+bootdelay	pm_config.h	/^	int bootdelay;$/;"	m	struct:pm_time_config
+check_network_traffic	common_fun.c	/^int check_network_traffic()$/;"	f
+check_otg_ID_pin	common_fun.c	/^int check_otg_ID_pin()$/;"	f
+check_suspend_mode	Appl.c	/^int check_suspend_mode ( int pwr_delay )$/;"	f
+conn_mode	pm_config.h	/^	char  conn_mode[20];$/;"	m	struct:pm_config
+data_transfer	pm_config.h	/^	int data_transfer;$/;"	m	struct:pm_time_config
+default_sla_xml	pm_config_xml.c	/^int default_sla_xml()$/;"	f
+get_bat_status	low_battery.c	/^int get_bat_status( float *filter_voltage)$/;"	f
+get_battery_info	common_fun.c	/^void get_battery_info()$/;"	f
+get_data_packets_network	common_fun.c	/^int get_data_packets_network(char * interface)$/;"	f
+get_date	log.c	/^void get_date(int *day,int *month,int *year,int *hrs,int *mins,int *secs)$/;"	f
+get_network_info	common_fun.c	/^void get_network_info()$/;"	f
+get_network_rd_init	common_fun.c	/^void get_network_rd_init()$/;"	f
+get_rd_info	common_fun.c	/^void get_rd_info()$/;"	f
+get_wait_bklight_status	Appl.c	/^int get_wait_bklight_status(void)$/;"	f
+gl11_modules_pwronoff	Appl.c	/^void gl11_modules_pwronoff(int arg)$/;"	f
+main	Appl.c	/^int main(void)$/;"	f
+netconn	pm_config.h	/^	int  netconn;$/;"	m	struct:pm_config
+network_timeout	pm_config.h	/^	int network_timeout;$/;"	m	struct:pm_time_config
+otg	pm_config.h	/^	int otg;$/;"	m	struct:pm_config
+parse_xml_file	pm_config_xml.c	/^int parse_xml_file(char *docname)$/;"	f
+pm	pm_config.h	/^struct pm_config pm;$/;"	v	typeref:struct:pm_config
+pm_config	pm_config.h	/^struct pm_config$/;"	s
+pm_log	log.c	/^void pm_log(char *msg)$/;"	f
+pm_t	pm_config.h	/^struct pm_time_config pm_t;$/;"	v	typeref:struct:pm_time_config
+pm_time_config	pm_config.h	/^struct pm_time_config$/;"	s
+rd_service	pm_config.h	/^	int rd_service;$/;"	m	struct:pm_config
+rd_service_iri	pm_config.h	/^	int rd_service_iri;$/;"	m	struct:pm_config
+read_pm_config_file	pm_config_xml.c	/^int read_pm_config_file()$/;"	f
+rhms_status	pm_config.h	/^	int rhms_status;$/;"	m	struct:pm_config
+suspend_timeout	pm_config.h	/^	int suspend_timeout;$/;"	m	struct:pm_time_config
+wait_for_bootdelay	common_fun.c	/^void wait_for_bootdelay (int delay_mins)$/;"	f
+wakealarm	pm_config.h	/^	int wakealarm;$/;"	m	struct:pm_config
